@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# But allow directories to be traversed
+!*/
+
+# Allow .ml and .mli files
+!*.ml
+!*.mli
+
+# Allow .gitignore itself
+!.gitignore
